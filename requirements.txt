@@ -1,0 +1,7 @@
+# Install the correct PyTorch build for your CUDA version first.
+torch>=2.2
+torch-geometric>=2.5
+numpy>=1.24
+tqdm>=4.66
+matplotlib>=3.7
+ogb>=1.3.6
