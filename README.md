@@ -10,7 +10,7 @@ labels. Frozen downstream representations concatenate global ART energy
 coordinates with transported node features:
 
 $$
-z(G) = [q(G)\|\operatorname{vec}(H(G))].
+z(G) = [q(G)\|\mathrm{vec}(H(G))].
 $$
 
 This release contains only the SCGFM-ART model and the two cross-domain
