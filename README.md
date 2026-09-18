@@ -305,6 +305,6 @@ Run the unit suite with:
 python -m pytest
 ```
 
-## License and citation
+## License and communication
 
 The code is released under the MIT License. If you have any questions, contact by email: hexiaodong24@126.com.
