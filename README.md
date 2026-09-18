@@ -3,6 +3,14 @@
 Official implementation of **SCGFM-ART: Amortized Relational Transport for
 Structure-Centric Graph Foundation Models**.
 
+<p align="center">
+  <img src="assets/framework.png" width="100%" alt="SCGFM-ART framework">
+</p>
+
+<p align="center">
+  <em>SCGFM-ART framework: amortized relational atlas pretraining and frozen cross-domain transfer.</em>
+</p>
+
 SCGFM-ART maps heterogeneous graphs to a shared relational atlas. A sparse GIN
 encodes normalized node degrees, an amortized transport network predicts
 graph-to-base couplings, and mean relational coverage trains the atlas without
@@ -10,7 +18,7 @@ labels. Frozen downstream representations concatenate global ART energy
 coordinates with transported node features:
 
 $$
-z(G) = [q(G)\|\mathrm{vec}(H(G))].
+z(G) = [q(G)\|\operatorname{vec}(H(G))].
 $$
 
 This release contains only the SCGFM-ART model and the two cross-domain
